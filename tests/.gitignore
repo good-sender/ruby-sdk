@@ -1,0 +1,7 @@
+vendor/
+.bundle/
+Gemfile.lock
+.env
+.env.*
+!.env.example
+prism.*.log

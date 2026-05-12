@@ -1,0 +1,21 @@
+generatorName: ruby
+outputDir: .
+inputSpec: ../openapi/goodsender.yaml
+gitUserId: good-sender
+gitRepoId: ruby-sdk
+packageVersion: 0.1.0
+additionalProperties:
+  httpUserAgent: goodsender-ruby/0.1.0
+  gemName: goodsender
+  gemVersion: 0.1.0
+  gemSummary: Official GoodSender API client for Ruby
+  gemDescription: Ruby SDK for the GoodSender API.
+  gemAuthor: GoodSender
+  gemAuthorEmail: support@goodsender.com
+  gemHomepage: https://github.com/good-sender/ruby-sdk
+  gemLicense: MIT
+  moduleName: GoodSender
+  # Faraday is pure Ruby (no libcurl FFI), the de facto Ruby HTTP
+  # abstraction (Stripe, Octokit, OAuth2 gem), and supports middleware.
+  library: faraday
+  hideGenerationTimestamp: true
