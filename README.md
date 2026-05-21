@@ -2,18 +2,6 @@
 
 Official client library for the GoodSender email API. Gem: `goodsender`
 
-## Installation
-
-```bash
-gem install goodsender
-```
-
-Or in your `Gemfile`:
-
-```ruby
-gem 'goodsender'
-```
-
 ## Quick start
 
 ```ruby
@@ -79,7 +67,7 @@ puts "emails=#{(res.emails || []).length}"
 
 ## Documentation
 
-- API reference: <https://api.goodsender.com/docs>
+- API reference: <https://goodsender.com/docs>
 - OpenAPI spec: `openapi/goodsender.yaml` in this repo
 - Conformance tests: `tests/`
 
